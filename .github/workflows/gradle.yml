@@ -566,6 +566,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: "allmusic_server_neoforge_1_21_6"
+<<<<<<< HEAD
         path: build/libs/
   build_fabric_1_21_7:
     runs-on: windows-latest
@@ -610,4 +611,6 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: "allmusic_server_neoforge_1_21_7"
+=======
+>>>>>>> 3249721bd9785067bef65761987b2124fd45fd20
         path: build/libs/
